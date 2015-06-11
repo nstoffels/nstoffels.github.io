@@ -42,7 +42,17 @@ h1,h2,h3,h4,h5,h6{
 	width:175px;
 	height:175px;
 	border-radius:50%;
-	overflow:scroll; /**ou hidden**/
+	overflow:auto; /**scroll, hidden**/
+	}
+	
+.navigation{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	}
+	
+.navigation li{
+	display:inline-block;
 	}
 	
 /**premier laché**/
