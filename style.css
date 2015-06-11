@@ -43,6 +43,7 @@ h1,h2,h3,h4,h5,h6{
 	height:175px;
 	border-radius:50%;
 	overflow:auto; /**scroll, hidden**/
+	transition: all 15s;
 	}
 	
 .navigation{
@@ -51,8 +52,24 @@ h1,h2,h3,h4,h5,h6{
 	margin:0;
 	}
 	
+.portrait:hover{
+	transform:skew(45deg) translateX(200px) translateY(100px) rotate(45deg);}
+	
 .navigation li{
 	display:inline-block;
+	background-color:#FFF;
+	padding:10px;
+	}
+	
+.navigation li:before{
+	content:"\2764";}
+	
+.navigation li:hover{
+	background-color:rgb(50,100,150);
+	}
+	
+.navigation li:hover:before{
+	background-color:rgb(100,150,200);
 	}
 	
 /**premier laché**/
