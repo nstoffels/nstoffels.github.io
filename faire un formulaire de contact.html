@@ -2,18 +2,110 @@
 <html lang="fr">
 	<head>
 		<meta charset="UTF-8"> <!-- permet de taper et de comprendre les caractères spéciaux (ceux qui ne sont pas QWERTY) -->
-		<title>page d'étude</title><!--  le titre qui sera référencé -->
+		<title>comprendre le fonctionnement d'un formulaire</title><!--  le titre qui sera référencé -->
 	</head>
 	
 	<header>
 		<h1>Création d'un formulaire </h1>
 			<nav>
-				<li><a href="" title=""></a></li>
+				<li><a href="pageetude.htm" title="">lien de la page de lien des balises classiques</a></li>
 			</nav>
 	</header>
 	
 	<body>
-	<!-- ceci est un  commentaire, et les espaces par rapport au '-' sont importants -->
-	
+		<main>
+		<!-- ceci est un  commentaire, et les espaces par rapport au '-' sont importants -->
+			<form action="post">
+				<fieldset> <!-- permet de faire des blocs de formulaire -->
+					<div class="field_line"
+						<legend>Informations personnelles</legend>
+						<label for="">Vous êtes?</label>
+						<select name="you">
+							<option value="ingénieur">Ingénieur</option>
+							<option value="un géniard">un géniard</option>
+							<option value="rien">néant</option>
+						</select>
+					</div>
+					
+					<div class="field_line">
+						<label for="">Nom</label>
+						<input type="text">
+					</div>
+					
+					<div class="field_line">
+						<label for="">Prénom</label>
+						<input type="text">
+					</div>
+					
+					<div class="field_line">
+						<label for="">phone</label>
+						<input type="text">
+					</div>
+					
+					<div class="field_line">
+						<label for="">Email</label>
+						<input type="email">
+					</div>
+					
+					<div class="field_line">
+						<label for="">corps du message</label>
+						<textarea name=""></textarea>
+					</div>
+					
+					<div class="field_line">
+						<label for="">pièce jointe</label>
+						<input type="file">
+					</div>
+					
+					<div class="field_line">
+						<label for="">couleur préférée</label>
+						<input type="color">
+					</div>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Informations complémentaires</legend>
+					<div class="field_group">
+						<h3>sexe</h3>
+						<ul>
+							<li class="field_group_line">
+								<input type="radio">
+								<label for="">Mâle</label>
+							</li>
+							<li class="field_group_line">
+								<input type="radio">
+								<label for="">Femelle</label>
+							</li>
+							<li class="field_group_line">
+								<input type="radio">
+								<label for="">Autre</label>
+							</li>
+						</ul>
+					</div>
+					<div class="field_group">
+						<h3>Vous aimez</h3>
+						<ul>
+							<li class="field_group_line">
+								<input type="checkbox">
+								<label for="">Les fraises</label>
+							</li>
+						</ul>
+						<ul>
+							<li class="field_group_line">
+								<input type="checkbox">
+								<label for="">Les framboises</label>
+							</li>
+						</ul>
+						<ul>
+							<li class="field_group_line">
+								<input type="checkbox">
+								<label for="">Les Myrtilles</label>
+							</li>
+						</ul>
+				</fieldset>
+				
+			</form>
+		</main>	
 	</body>
+	
 </html>
