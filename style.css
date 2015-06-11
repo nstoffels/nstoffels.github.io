@@ -1,0 +1,58 @@
+
+
+/**deuxième laché**/
+
+html {background-color:rgb(100,100,100); box-sizing:border-box;}
+
+*,*:before,*:after{box-sizing:inherit;}
+
+/** usual border-box modification : https://css-tricks.com/box-sizing **/
+
+body{
+	font-family:Helvetica, Arial, sans-serif; 
+	color:#444; 
+	max-width:780px;
+	background-color:#FFF;
+	margin:0 auto;
+	padding:20px;
+	}
+
+a {color:darkred;}
+
+a:hover{color:yellow;}
+
+a:focus{color:red;}
+
+a:visited{color:purple;}
+
+/* a{color:inherit;} permet de faire hériter aux liens les couleurs dans body */
+
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal; 
+	text-transform:uppercase;
+	}
+
+.main-header{
+	border-bottom : 10px #333 solid;
+	background-color:#eee;
+	padding:20px;
+	}
+	
+.portrait{
+	width:175px;
+	height:175px;
+	border-radius:50%;
+	overflow:scroll; /**ou hidden**/
+	}
+	
+/**premier laché**/
+
+/*header { color : green;  border : 5px black solid;}
+
+main {border : 5px brown solid;}
+
+footer{color:purple; border : 5px red solid;}
+
+.cadre{background:rgb(100,255,100); border : 2px black solid;}
+
+ul strong{color:rgb(200,230,50);}*/
