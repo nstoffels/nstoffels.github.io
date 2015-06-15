@@ -20,7 +20,7 @@
  font-family:Helvetica, sans-serif; 
  text-shadow:2px 2px 2px rgba(155,155,155,.3);} /*rgb->0-255, a->1  premier chiffre : ombre porté, décalage en X, second chiffre : ombre porté, décalage en y et troisième chiffre, le flou.   */ 
  
- th{background-color:black;
+ thead th{background-color:black;
  color:white;
  border-left-color:white;
  border-right-color:white;}
