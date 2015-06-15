@@ -1,0 +1,69 @@
+html {background-color:rgb(100,100,100); box-sizing:border-box;}
+
+*,*:before,*:after{box-sizing:inherit;}
+
+/** usual border-box modification : https://css-tricks.com/box-sizing **/
+
+body{
+	font-family:Helvetica, Arial, sans-serif; 
+	color:#444; 
+	max-width:780px;
+	background-color:#FFF;
+	margin:0 auto;
+	padding:20px;
+	}
+
+a {color:darkred;}
+
+a:hover{color:yellow;}
+
+a:focus{color:red;}
+
+a:visited{color:purple;}
+
+/* a{color:inherit;} permet de faire hériter aux liens les couleurs dans body */
+
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal; 
+	text-transform:uppercase;
+	}
+
+.main-header{
+	border-bottom : 10px #333 solid;
+	background-color:#eee;
+	padding:20px;
+	}
+	
+.portrait{
+	width:175px;
+	height:175px;
+	border-radius:50%;
+	overflow:auto; /**scroll, hidden**/
+	transition: all 15s;
+	}
+	
+.navigation{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	}
+	
+.portrait:hover{
+	transform:skew(45deg) translateX(200px) translateY(100px) rotate(45deg);}
+	
+.navigation li{
+	display:inline-block;
+	background-color:#FFF;
+	padding:10px;
+	}
+	
+.navigation li:before{
+	content:"\1F6A2";}
+	
+.navigation li:hover{
+	background-color:rgb(50,100,150);
+	}
+	
+.navigation li:hover:before{
+	background-color:rgb(100,150,200);
+	}

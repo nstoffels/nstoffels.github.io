@@ -1,0 +1,21 @@
+.container{position : absolute;
+/*width : 500px;
+height : 500px;*/
+top : 50%;
+left : 50%;
+border : 1px pink solid;
+background-color:red;}
+
+.container:after{
+content:" blabla";
+clear:both;
+display:block;}
+
+ .a, .b, .c, .d{ float:left;
+ font-size:1em;
+ border : 5px blue solid;
+ width:100px;
+ outline:1px blue solid;
+ background-color:rgb(255,255,255);}
+ 
+ 
