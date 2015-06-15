@@ -1,0 +1,28 @@
+ /*.captation{
+ position: absolute;
+ font-size:50px;
+ color:Grey;
+ font-weight:20;
+ font-family:Times, serif;}*/
+ 
+.container{width : 100px;
+height : 100px;
+position : absolute;
+top : 50%;
+left : 50%;
+transform:translate3d(-50%,-50%,20px) scale(3) rotate(360deg);
+border : 1px pink solid;
+}
+ 
+ .a, .b, .c, .d{position:absolute;
+ font-size:2em;
+ border : 5px blue solid;}
+
+ .a,.b{top :0;}
+ 
+ .c,.d{bottom:0;}
+ 
+ .a,.c:{left:0;}
+ 
+ .b,.d{right:0;}
+ 

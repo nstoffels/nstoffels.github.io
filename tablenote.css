@@ -14,7 +14,8 @@
  border-collapse:collapse;
   }
   
-  .table td,th{border:2px solid black;}
+  .table td,th{border:2px solid black;
+  text-align:left;}
  
  td{ font-weight:100;
  font-family:Helvetica, sans-serif; 
