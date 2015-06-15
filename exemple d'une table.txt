@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exemple de table</title>
+    </head>
+	
+	<body>
+		<table>
+			<tr>
+				<td><background-color=rgb(100,150,200)</td>
+				
+		</table>
+	</body>
+	
+</html>

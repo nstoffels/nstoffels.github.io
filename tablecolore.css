@@ -1,0 +1,72 @@
+ html {height:100%;} 
+ body {height:100%;
+ margin:0;
+ font-weight:100;
+ font-family:Helvetica, sans-serif;
+}
+
+ 
+ .table{border-collapse:collapse;
+ width:100%;
+ height:100%;
+ font-size:75px;
+ color:white;
+  }
+ 
+ td{ font-weight:100;
+ font-family:Helvetica, sans-serif; 
+ text-shadow:20px 20px 2px rgba(255,255,255,.3);} /*rgb->0-255, a->1  premier chiffre : ombre porté, décalage en X, second chiffre : ombre porté, décalage en y et troisième chiffre, le flou.   */ 
+ 
+ .une {background-color:rgb(0,25,50); box-sizing:border-box;}
+ 
+ .une:hover{
+	background-color:rgb(255,25,150);
+	}
+	
+.deux {background-color:rgb(50,75,100); box-sizing:border-box;}
+ 
+ .deux:hover{
+	background-color:rgb(255,25,150);
+	}
+	
+.trois {background-color:rgb(100,125,150); box-sizing:border-box;}
+ 
+ .trois:hover{
+	background-color:rgb(255,25,150);
+	}
+	
+.quatre {background-color:rgb(150,175,200); box-sizing:border-box;}
+ 
+ .quatre:hover{
+	background-color:rgb(255,25,150);
+	}
+	
+.cinq {background-color:rgb(200,225,250); box-sizing:border-box;}
+ 
+ .cinq:hover{
+	background-color:rgb(255,25,150);
+	}
+	
+.six {background-color:rgb(250,225,200); box-sizing:border-box;}
+ 
+ .six:hover{
+	background-color:rgb(255,25,150);
+	}
+	
+.sept {background-color:rgb(200,175,150); box-sizing:border-box;}
+ 
+ .sept:hover{
+	background-color:rgb(255,25,150);
+	}
+	
+.huit {background-color:rgb(150,125,100); box-sizing:border-box;}
+ 
+ .huit:hover{
+	background-color:rgb(255,25,150);
+	}
+	
+.neuf {background-color:rgb(100,75,50); box-sizing:border-box;}
+ 
+ .neuf:hover{
+	background-color:rgb(255,25,150);
+	}
