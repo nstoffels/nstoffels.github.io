@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Appel de bootstrap</title>
+		<!--   --><!-- gain de temps pour les commentaires à droite  -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<!-- Latest compiled and minified JavaScript -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--  permet de spécifier que les petits écrans sont prioritaires -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<!--  interdit d'aggrandir avec un mobile -->
+	<link rel="stylesheet" href="CVpropre.css">
+	
+	
+
+</head>
+
+<body>
+
+	<main>
+		<div class="container-fluid"> <!--   On met tout notre formulaire dans le <div class="container"></div> -->
+		<!-- ligne contact nom prénom -->
+			<div class="row">
+			  <div class="col-xs-12 col-sm-6 col-md-8">
+				<div class="navbar-header">
+				  <a class="navbar-brand" href="#"> Stoffels Nicolas</a>
+				</div>
+			</div>
+			  <div class="clearfix visible-xs-block"></div>
+			  <div class="col-xs-12 col-md-4">.
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						 <ul class="nav navbar-nav">
+							<li><a href="#">Exemple de travaux (en construction)</a></li>
+						</ul>
+								<!-- Button trigger modal -->
+									<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+										Contactez moi (en construction)
+									</button>
+
+									<!-- Modal -->
+									<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									  <div class="modal-dialog" role="document">
+										<div class="modal-content">
+										  <div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+										  </div>
+										  <div class="modal-body">
+												<form required name="Contact" novalidate>
+													<p><label>nom : <input name="name" type="text" >
+													<p><label>email : <input name="email" type="email"></label></p>
+													<p><label>titre de votre message : <input name="titre"></label></p>
+													<p><label>corps du message</label><textarea name=""></textarea></p>
+													<p><label>pièce jointe</label><input type="file"></p>
+												</form>
+										  </div>
+										  <div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											<button type="submit" class="btn btn-primary">Save changes</button>
+										  </div>
+										</div>
+									  </div>
+									</div>
+					</div><!-- /.navbar-collapse -->
+			  </div>
+			</div>
+		</div>
+		
+		<div class="jumbotron" >
+			  <div class="container">
+				<fieldset class="fondecran">
+				<h2> état civil</h2>
+				<ul>
+					<li><address>
+					  <strong>Stoffels Nicolas</strong></br>
+					  <a href="mailto:#" class="adressejumbotron">n.stoffels@groupe-esigelec.fr</a>
+					</address></li>
+					<li><strong>date de naissance</strong> : 07/07/1985</li>
+					<li><strong>permi</strong>: A1, B</li>
+					<li><address><strong>adresse : </strong> Le pavillon de sudais, 41120 Monthou sur bièvre</address></li>
+				</ul>
+				</fieldset>
+			  </div>
+		</div>
+			
+		<div class="container-fluid">
+			<div class="row">
+			  <div class="col-xs-12 col-sm-3">
+				  <fieldset>
+						<img src="http://lorempixel.com/400/200/technics" alt="un lorempixel technics" class="img-circle img-responsive">
+						<h2>Parcour professionnel</h2>
+						<h3>ingénieur recherche et développement</h3>
+							<p><strong>Période :</strong> 11/2011 à 11/2014</br>
+							Mon travail consistait à faire de la fusion de données dans un ouvrage de génie civil souterrain.</p>
+						
+						
+						</h3>Stage recherche à l'IRSEEM </h3>
+							<p><strong>Période :</strong>02/2011 à 08/2011</br>
+							Mon travail consistait à chercher les paramètres de fonctionnement d'une vanne EGR d'un moteur hybride diesel. </p>
+					</fieldset>
+				</div>
+				<div class="clearfix visible-xs-block"></div>
+				<div class="col-xs-12 col-sm-3">
+					<img src="http://lorempixel.com/400/200/abstract" alt="un lorempixel abstract" class="img-circle img-responsive">
+					<fieldset>
+						<h2>Parcour Scolaire</h2>
+							<h3>école d'ingénieur</h3>
+								<p><strong>Période :</strong>09/2007 à 06/2011</br>
+								<ul>
+									<li>Dominante Génie électrique et transport</li>
+									<li>option risques industriels</li>
+								</ul>
+								</p>
+							
+							
+							</h3>Classe préparatoire aux Grandes écoles </h3>
+								<p><strong>Période :</strong>09/2005 à 06/2007</br>
+								CPGE TSI à Brive la Gaillarde (19)</p>
+								
+							</h3>Terminal STI électrotechnique</h3>
+								<p><strong>Période :</strong>09/2004 à 06/2005</br>
+								Lycée Général et technologique Augustin Thierry à Blois(41)</p>
+				  </fieldset>
+			  </div>
+			  <!-- Optional: clear the XS cols if their content doesn't match in height -->
+			  <div class="clearfix visible-xs-block"></div>
+			  <div class="col-xs-12 col-sm-3">
+				<img src="http://lorempixel.com/400/200/people" alt="un lorempixel people" class="img-circle img-responsive">
+				 <fieldset>
+					<h2>Autre Formation</h2>
+						<h3>Habilitable électrique</h3>
+							<p><strong>Période de validité :</strong> 04/2014 à 04/2017</br>
+							Habilitable BT (B1V, B2V, BR, BC) / H0, H0V</p>
+						</h3>Formation Cementys </h3>
+							<p>Formation aux capteurs employés dans le Génie Civile </p>
+						</h3>AFPS </h3>
+						</h3>Handimanagement </h3>
+							<p><strong>Période :</strong>02/2011 à 08/2011</br>
+							Mon travail consistait à chercher les paramètres de fonctionnement d'une vanne EGR d'un moteur hybride diesel. </p>
+				</fieldset>
+				  </div><div class="clearfix visible-xs-block"></div>
+				  <div class="col-xs-12 col-sm-3">
+				  <img src="http://lorempixel.com/400/200/sports" alt="un lorempixel sports" class="img-circle img-responsive">
+					 <fieldset>
+						<h2>Loisirs :</h2>
+							<h3>Lecture,</h3>
+							</h3>Natation, Marche </h3>
+							</h3>Rugby </h3>
+							</h3>Jeux de rôles </h3>
+								<p>Président de l'association ESI'GAMES de 02/2008 à 06/2011, Maître des Jeux et conteur sur D&amp;D 3.5, Vampire la Mascarade, Shadowrun v2.</p>
+					</fieldset>
+				  </div>
+			</div> <!-- Fin de la ligne des 4 articles -->
+			
+			<div class="row">
+			  <div class="col-md-4 col-md-offset-4">				
+				<a href="http://anvoz.github.io/bootstrap-tldr/" role="button" class="btn btn-primary col-md-4 col-md-offset-4">lien utile</a>
+			  </div>
+			</div>
+
+			
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		</div>
+	</main>
+			<!-- Latest compiled and minified CSS -->
+	<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
+
+		<!--  Les liens js sont à mettre juste avant la fin du body -->
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.map"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+						
+						
+	<!-- <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+</body>
+
+
+</html>
+

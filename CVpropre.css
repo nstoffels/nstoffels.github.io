@@ -1,0 +1,22 @@
+.jumbotron {
+color:white;
+background-color:white;
+background-image:url(http://lorempixel.com/1600/400/nightlife);
+background-repeat: no-repeat;
+background-size : cover;
+}
+
+.navbar-header{
+	background-color:iceblue;
+}
+
+.adressejumbotron{
+	color : inherit;
+}
+
+/*
+:hover
+:active
+:focus
+:link
+*/
